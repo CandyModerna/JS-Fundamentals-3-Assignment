@@ -1,3 +1,1 @@
-# test
-First test git repo
-hello odin
+# JS-Fundamentals-3-Assignment for The Odin Project.
