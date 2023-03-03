@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    margin: 0px;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  
+  .content {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px;
+  }
+  footer {
+    display: flex;
+    background-color: lightgrey;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px -3px 5px grey;
+  }
+  
+  button {
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    transition: all 0.4s;
+    border: 2px ridge;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    background-color: lightblue;
+  }
+  
+  .Multiply, .Add7, .Lastletter, .Capitalize {
+    transition: all 0.3s;
+  }
+  
+  .Multiply:hover, .Add7:hover, .Capitalize:hover, .Lastletter:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    background-color: lightsalmon;
+    box-shadow: 5px 15px 5px grey;
+  }
+  
+  input {
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+  .Multiply, .Capitalize, .Add7, .Lastletter {
+    display: flex;
+    flex: 1 2 0;
+    align-items: center;
+    flex-flow: column wrap;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  p {
+    background-color: white;
+    border-radius: 5px;
+    display: inline;
+  }
+  
